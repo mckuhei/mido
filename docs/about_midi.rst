@@ -32,7 +32,7 @@ This message consists of::
 
 The first byte is called a status byte. It has the upper bit set,
 which is how you can tell it apart from the following data
-bytes. Data bytes are thus only 7 bits (0..127).
+bytes. Data bytes are thus only 8 bits (0..255).
 
 Each message type has a given number of data bytes, the exception
 being the System Exclusive message which has a start and a stop byte
